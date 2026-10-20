@@ -1,0 +1,52 @@
+"""Approved finite formal Gate cases; completeness is distinct from accuracy metrics."""
+
+FORMAL_CASES = (
+    {
+        "case_id": "ordinary-shipping",
+        "question": "请说明商城通用配送政策：普通档用户订单未满99元的基础运费是多少？",
+        "expected": "knowledge",
+        "facts": [["10元", "10 元", "十元"]],
+    },
+    {
+        "case_id": "member-shipping",
+        "question": "商城通用运费政策中，银卡和金卡用户订单未满99元时如何用600积分抵扣基础运费？",
+        "expected": "knowledge",
+        "facts": [["6元", "6 元", "六元"], ["600"], ["银卡"], ["金卡"]],
+    },
+    {
+        "case_id": "return-conditions",
+        "question": "请介绍商城通用退换货运费政策：无理由退货和质量问题退换货的运费分别由谁承担？",
+        "expected": "knowledge",
+        "facts": [["买家", "用户", "消费者"], ["平台", "商家"], ["质量"]],
+    },
+    {
+        "case_id": "model-spec",
+        "question": "商品型号MH-W40的水箱容量与建议更换滤芯周期是什么？",
+        "expected": "knowledge",
+        "facts": [["4L", "4 L", "4升", "4 升"], ["3周", "3 周", "三周"]],
+    },
+    {
+        "case_id": "refund-policy-time",
+        "question": "请解释商城的通用退款政策是否承诺固定到账天数，以及售后手册退款处理时限的含义。",
+        "expected": "knowledge",
+        "facts": [
+            ["不承诺", "未承诺", "没有承诺", "不代表", "并非", "不保证"],
+            ["支付渠道", "渠道"],
+            ["3个工作日", "3 个工作日", "3工作日", "三个工作日"],
+            ["处理时限", "处理时间", "处理期限"],
+        ],
+        "required_sources": ["after-sales-manual.md"],
+    },
+    {
+        "case_id": "missing-model",
+        "question": "商城商品MH-QUANTUM9的量子纠缠接口额定电压是多少？",
+        "expected": "fallback",
+        "facts": [],
+    },
+    {
+        "case_id": "specific-refund",
+        "question": "我要申请退还订单MH001，请现在办理退款。",
+        "expected": "refund",
+        "facts": [],
+    },
+)

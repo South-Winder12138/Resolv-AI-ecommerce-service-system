@@ -1,0 +1,471 @@
+{
+  "corrections": [
+    "classification.output.requests instead of classification.requests",
+    "complete native tool calls may finish with stop, as accepted by business parser"
+  ],
+  "evidence": {
+    "actions": [
+      {
+        "arguments": {
+          "order_id": "MOCK001"
+        },
+        "effect": "read",
+        "execution_status": "completed",
+        "result": {
+          "found": true,
+          "order_id": "MOCK001",
+          "status": "shipped",
+          "tracking_no": "MOCKSF001"
+        },
+        "tool_name": "query_order"
+      },
+      {
+        "arguments": {
+          "tracking_no": "MOCKSF001"
+        },
+        "effect": "read",
+        "execution_status": "completed",
+        "result": {
+          "events": [
+            {
+              "description": "包裹抵达上海转运中心",
+              "event_id": "event-001",
+              "location": "上海转运中心",
+              "occurred_at": "2026-10-20T08:00:00+08:00",
+              "status": "in_transit"
+            }
+          ],
+          "events_truncated": false,
+          "found": true,
+          "location": "上海转运中心",
+          "provenance": {
+            "attempt_id": "012dee0dc04f49ad982cccc1a159e66f",
+            "dataset_hash": "54fa4b2f2a98f6130f3a669381aa18eddb4c024a24abc183b31a2de6bbe84909",
+            "dataset_version": "20261020-v1",
+            "observed_at": "2026-10-20T06:31:26.555721+00:00",
+            "request_id": "012dee0dc04f49ad982cccc1a159e66f",
+            "result_hash": "268e937bb08fed04aaa6e618ed3927a4c9e6bf0a3798786d36085554b3347c82",
+            "simulated": true,
+            "source": "mock-logistics-v1"
+          },
+          "schema_version": 1,
+          "shipped_at": "2026-10-19T10:00:00+08:00",
+          "signed_at": null,
+          "status": "in_transit",
+          "tracking_no": "MOCKSF001"
+        },
+        "tool_name": "query_logistics"
+      }
+    ],
+    "answer": "【模拟物流】订单 MOCK001 已发货，运单号为 MOCKSF001。当前物流状态为“运输中”，最新记录显示包裹于 2026-10-20 08:00 抵达上海转运中心。",
+    "api_requests": 1,
+    "assistant_count": 1,
+    "attempts": [
+      {
+        "action_id": "22dddbbce8d247bbbb2fd57a56afde96",
+        "attempt_id": "012dee0dc04f49ad982cccc1a159e66f",
+        "envelope": {
+          "dataset_hash": "54fa4b2f2a98f6130f3a669381aa18eddb4c024a24abc183b31a2de6bbe84909",
+          "dataset_version": "20261020-v1",
+          "observed_at": "2026-10-20T06:31:26.555721Z",
+          "outcome": "found",
+          "request_id": "012dee0dc04f49ad982cccc1a159e66f",
+          "schema_version": 1,
+          "shipment": {
+            "events": [
+              {
+                "description": "包裹抵达上海转运中心",
+                "event_id": "event-001",
+                "location": "上海转运中心",
+                "occurred_at": "2026-10-20T08:00:00+08:00",
+                "status": "in_transit"
+              }
+            ],
+            "events_truncated": false,
+            "location": "上海转运中心",
+            "shipped_at": "2026-10-19T10:00:00+08:00",
+            "signed_at": null,
+            "status": "in_transit"
+          },
+          "simulated": true,
+          "source": "mock-logistics-v1",
+          "tracking_no": "MOCKSF001"
+        },
+        "error_code": null,
+        "hash_verified": true,
+        "state": "completed"
+      }
+    ],
+    "business_audits": [
+      {
+        "actual_input": 812,
+        "actual_output": 24,
+        "attempt": 1,
+        "audit_version": 2,
+        "elapsed_seconds": 0.9311962500214576,
+        "error_code": null,
+        "estimate": 7204,
+        "finish_reason": "stop",
+        "invocation_id": "d84de6efaebd497f9852157b623b9c55",
+        "model_name": "qwen3.8-flash",
+        "model_step": 1,
+        "profile_fingerprint": "9eafdf1bfa858a063af235da3f23d9665d89aa83a7d2424dee0aa9f8604603d1",
+        "purpose": "business",
+        "require_tool": true,
+        "returned_tool_names": [
+          "query_order"
+        ],
+        "tool_policy": {
+          "allowed_order_ids": [
+            "MOCK001"
+          ],
+          "allowed_tool_names": [
+            "query_order"
+          ],
+          "allowed_tracking_nos": [],
+          "model_step": 1,
+          "phase": "order",
+          "policy_version": "logistics-phase-tools-v1",
+          "schema_fingerprint": "eb2a7bdccdc188022237c8fbd60c4920535deb2a4bcef5fb4043b1207bd860d4",
+          "tool_choice": "query_order"
+        },
+        "tool_policy_fingerprint": "c10f710fa51845e0a4a744dc6591e1fcc91208f746f4b0a0d9eb44004f7f180a"
+      },
+      {
+        "actual_input": 893,
+        "actual_output": 25,
+        "attempt": 1,
+        "audit_version": 2,
+        "elapsed_seconds": 1.5215968749835156,
+        "error_code": null,
+        "estimate": 7401,
+        "finish_reason": "stop",
+        "invocation_id": "bebf7bfc0c5743e1955aec455a64a00e",
+        "model_name": "qwen3.8-flash",
+        "model_step": 2,
+        "profile_fingerprint": "9eafdf1bfa858a063af235da3f23d9665d89aa83a7d2424dee0aa9f8604603d1",
+        "purpose": "business",
+        "require_tool": true,
+        "returned_tool_names": [
+          "query_logistics"
+        ],
+        "tool_policy": {
+          "allowed_order_ids": [
+            "MOCK001"
+          ],
+          "allowed_tool_names": [
+            "query_logistics"
+          ],
+          "allowed_tracking_nos": [
+            "MOCKSF001"
+          ],
+          "model_step": 2,
+          "phase": "logistics",
+          "policy_version": "logistics-phase-tools-v1",
+          "schema_fingerprint": "03f8172d5e5337b83e6e2c46878f950883298ae9afbbb68a49e16f487cde5f46",
+          "tool_choice": "query_logistics"
+        },
+        "tool_policy_fingerprint": "fcadb2b0ac7d7c6a2b3dbf36fbff5a781d5469525e60eb91aa16a2ea67c19334"
+      },
+      {
+        "actual_input": 1034,
+        "actual_output": 54,
+        "attempt": 1,
+        "audit_version": 2,
+        "elapsed_seconds": 2.615815500030294,
+        "error_code": null,
+        "estimate": 7777,
+        "finish_reason": "stop",
+        "invocation_id": "db8b425734d8438b810ceb0028884760",
+        "model_name": "qwen3.8-flash",
+        "model_step": 3,
+        "profile_fingerprint": "9eafdf1bfa858a063af235da3f23d9665d89aa83a7d2424dee0aa9f8604603d1",
+        "purpose": "business",
+        "require_tool": false,
+        "returned_tool_names": [],
+        "tool_policy": {
+          "allowed_order_ids": [
+            "MOCK001"
+          ],
+          "allowed_tool_names": [],
+          "allowed_tracking_nos": [],
+          "model_step": 3,
+          "phase": "answer",
+          "policy_version": "logistics-phase-tools-v1",
+          "schema_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "tool_choice": "none"
+        },
+        "tool_policy_fingerprint": "effb07b926788f8f65c8bfa90de678aacb832762fc21153eb4a240096c488578"
+      }
+    ],
+    "error_code": null,
+    "http_status": 200,
+    "input_budget": 60000,
+    "intent": "logistics",
+    "mcp_calls": 1,
+    "model_calls": [
+      {
+        "case_id": "L1",
+        "http_sends": 1,
+        "http_status": 200,
+        "id": "ca0d243dfb3a468b8455ab8d87d8a709",
+        "invocation_outcome": "completed",
+        "purpose": "resolution",
+        "revision": "b4fca8944e8a96c1e5e429334155080be3b74f0c",
+        "state": "http_completed"
+      },
+      {
+        "case_id": "L1",
+        "http_sends": 1,
+        "http_status": 200,
+        "id": "8c308c7242f94b4f9c3fac8ae309da5a",
+        "invocation_outcome": "completed",
+        "purpose": "intents",
+        "revision": "b4fca8944e8a96c1e5e429334155080be3b74f0c",
+        "state": "http_completed"
+      },
+      {
+        "case_id": "L1",
+        "http_sends": 1,
+        "http_status": 200,
+        "id": "9f0edb2032254358a0c05b2d9ad6cf67",
+        "invocation_outcome": "completed",
+        "purpose": "business",
+        "revision": "b4fca8944e8a96c1e5e429334155080be3b74f0c",
+        "state": "http_completed"
+      },
+      {
+        "case_id": "L1",
+        "http_sends": 1,
+        "http_status": 200,
+        "id": "2baca845d7ea41e9b960e030da02423e",
+        "invocation_outcome": "completed",
+        "purpose": "business",
+        "revision": "b4fca8944e8a96c1e5e429334155080be3b74f0c",
+        "state": "http_completed"
+      },
+      {
+        "case_id": "L1",
+        "http_sends": 1,
+        "http_status": 200,
+        "id": "23f796ff748246bf8c6177884e9f6fa9",
+        "invocation_outcome": "completed",
+        "purpose": "business",
+        "revision": "b4fca8944e8a96c1e5e429334155080be3b74f0c",
+        "state": "http_completed"
+      }
+    ],
+    "network_events": [
+      {
+        "at": 414320.583288583,
+        "event_id": "41f4b36f8ba04efbb920987b0209a2c7",
+        "method": "GET",
+        "path": "/v1/shipments/MOCKSF001",
+        "phase": "start",
+        "pid": 17280,
+        "role": "api",
+        "rpc_method": null
+      },
+      {
+        "at": 414320.58398625,
+        "event_id": "41f4b36f8ba04efbb920987b0209a2c7",
+        "method": "GET",
+        "path": "/v1/shipments/MOCKSF001",
+        "phase": "finish",
+        "pid": 17280,
+        "role": "api",
+        "rpc_method": null
+      },
+      {
+        "at": 414320.564992125,
+        "event_id": "68c91b40cf9a43ed96aaf06a74a0a2ac",
+        "method": "POST",
+        "path": "/mcp",
+        "phase": "start",
+        "pid": 17281,
+        "role": "mcp",
+        "rpc_method": "initialize"
+      },
+      {
+        "at": 414320.566340166,
+        "event_id": "68c91b40cf9a43ed96aaf06a74a0a2ac",
+        "method": "POST",
+        "path": "/mcp",
+        "phase": "finish",
+        "pid": 17281,
+        "role": "mcp",
+        "rpc_method": "initialize"
+      },
+      {
+        "at": 414320.567437083,
+        "event_id": "89f6460b1eb44916b6fed7e7ca49b2a9",
+        "method": "POST",
+        "path": "/mcp",
+        "phase": "start",
+        "pid": 17281,
+        "role": "mcp",
+        "rpc_method": "notifications/initialized"
+      },
+      {
+        "at": 414320.56781925,
+        "event_id": "89f6460b1eb44916b6fed7e7ca49b2a9",
+        "method": "POST",
+        "path": "/mcp",
+        "phase": "finish",
+        "pid": 17281,
+        "role": "mcp",
+        "rpc_method": "notifications/initialized"
+      },
+      {
+        "at": 414320.568805666,
+        "event_id": "08125f0af81b44e29ed0a597cf7ed167",
+        "method": "POST",
+        "path": "/mcp",
+        "phase": "start",
+        "pid": 17281,
+        "role": "mcp",
+        "rpc_method": "tools/list"
+      },
+      {
+        "at": 414320.56948575,
+        "event_id": "08125f0af81b44e29ed0a597cf7ed167",
+        "method": "POST",
+        "path": "/mcp",
+        "phase": "finish",
+        "pid": 17281,
+        "role": "mcp",
+        "rpc_method": "tools/list"
+      },
+      {
+        "at": 414320.570831333,
+        "event_id": "7956b702ed2f47168d568a1298637963",
+        "method": "POST",
+        "path": "/mcp",
+        "phase": "start",
+        "pid": 17281,
+        "role": "mcp",
+        "rpc_method": "tools/call"
+      },
+      {
+        "at": 414320.58474325,
+        "event_id": "7956b702ed2f47168d568a1298637963",
+        "method": "POST",
+        "path": "/mcp",
+        "phase": "finish",
+        "pid": 17281,
+        "role": "mcp",
+        "rpc_method": "tools/call"
+      },
+      {
+        "at": 414306.060386875,
+        "event_id": "4d90300a2977432da733a34fbb8ef494",
+        "method": "POST",
+        "path": "/conversations",
+        "phase": "start",
+        "pid": 17282,
+        "role": "resolv",
+        "rpc_method": null
+      },
+      {
+        "at": 414306.074091916,
+        "event_id": "4d90300a2977432da733a34fbb8ef494",
+        "method": "POST",
+        "path": "/conversations",
+        "phase": "finish",
+        "pid": 17282,
+        "role": "resolv",
+        "rpc_method": null
+      },
+      {
+        "at": 414306.07475475,
+        "event_id": "9df6532566c84000a4ebf3a04831c51d",
+        "method": "POST",
+        "path": "/agent/chat",
+        "phase": "start",
+        "pid": 17282,
+        "role": "resolv",
+        "rpc_method": null
+      },
+      {
+        "at": 414323.52157,
+        "event_id": "9df6532566c84000a4ebf3a04831c51d",
+        "method": "POST",
+        "path": "/agent/chat",
+        "phase": "finish",
+        "pid": 17282,
+        "role": "resolv",
+        "rpc_method": null
+      }
+    ],
+    "refresh_extra_calls": 0,
+    "replay_equal": true,
+    "reply_kind": "answer",
+    "resolution": {
+      "audit": {
+        "attempt": 1,
+        "finished_at": "2026-10-20T06:31:16.270527Z",
+        "input_estimate": 8565,
+        "input_tokens": 1468,
+        "invocation_id": "49fe02504f604b8288267a3be0f71fec",
+        "outcome": "succeeded",
+        "output_tokens": 203,
+        "stage": "resolution",
+        "started_at": "2026-10-20T06:31:12.249304Z",
+        "verified_refs": []
+      },
+      "output": {
+        "bindings": [],
+        "continuation_selection": null,
+        "resolved_text": "请查询订单 MOCK001 的物流状态，不要取消订单。",
+        "unresolved_references": []
+      }
+    },
+    "run_id": "902f69e3bd1b434eaad7683bfda95a10",
+    "run_status": "completed",
+    "sse_equal": true,
+    "understanding_audits": [
+      {
+        "attempt": 1,
+        "finished_at": "2026-10-20T06:31:16.270527Z",
+        "input_estimate": 8565,
+        "input_tokens": 1468,
+        "invocation_id": "49fe02504f604b8288267a3be0f71fec",
+        "outcome": "succeeded",
+        "output_tokens": 203,
+        "stage": "resolution",
+        "started_at": "2026-10-20T06:31:12.249304Z",
+        "verified_refs": []
+      },
+      {
+        "attempt": 1,
+        "finished_at": "2026-10-20T06:31:23.341057Z",
+        "input_estimate": 9511,
+        "input_tokens": 1694,
+        "invocation_id": "3bbb826263934e658720b385f6d3e636",
+        "outcome": "succeeded",
+        "output_tokens": 378,
+        "stage": "intents",
+        "started_at": "2026-10-20T06:31:16.315482Z",
+        "verified_refs": [
+          {
+            "kind": "input",
+            "source_hash": "cfde70fa11b314d0f6433ce3c8cf6437129469a2c54fe182019c0dbd25289fc1",
+            "source_id": "current"
+          }
+        ]
+      }
+    ],
+    "understanding_status": "ready",
+    "versions": [
+      "routed-v4",
+      4,
+      3,
+      2
+    ]
+  },
+  "model_calls": 5,
+  "new_model_calls": 0,
+  "original_report_sha256": "d4e05d0d1b051fd9ac4fad699062a56b9eaf1b420afd5e0d059856887cf729ee",
+  "source_revision": "b4fca8944e8a96c1e5e429334155080be3b74f0c",
+  "status": "passed_from_existing_receipt"
+}

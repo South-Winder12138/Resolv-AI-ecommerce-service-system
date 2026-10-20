@@ -1,0 +1,13 @@
+{
+  "version": "logistics-L1-L6-v1",
+  "max_model_calls": 48,
+  "max_retrievals": 0,
+  "cases": [
+    {"id": "L1", "text": "请查询订单 MOCK001 的物流状态，不要取消订单。", "depends_on": null, "tracking_no": "MOCKSF001", "status": "in_transit", "mcp_calls": 1},
+    {"id": "L2", "text": "它的物流现在到哪里了？", "depends_on": "L1", "tracking_no": "MOCKSF001", "status": "in_transit", "mcp_calls": 1},
+    {"id": "L3", "text": "查询运单 MOCKSF002 的物流轨迹。", "depends_on": null, "tracking_no": "MOCKSF002", "status": "delivered", "signed_at": null, "mcp_calls": 1},
+    {"id": "L4", "text": "查询运单 MOCKSF404 的物流状态。", "depends_on": null, "tracking_no": "MOCKSF404", "outcome": "not_found", "mcp_calls": 1},
+    {"id": "L5", "text": "查询订单 MOCK002 的物流状态，不要取消订单。", "depends_on": null, "tracking_no": null, "mcp_calls": 0},
+    {"id": "L6", "text": "查询订单 MOCK003 的物流状态，不要取消订单。", "depends_on": null, "tracking_no": "MOCKSF003", "error_code": "logistics_timeout", "mcp_calls": 1}
+  ]
+}

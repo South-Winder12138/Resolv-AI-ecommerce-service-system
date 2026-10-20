@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "source": "mock-logistics-v1",
+  "simulated": true,
+  "dataset_version": "20261020-v1",
+  "shipments": {
+    "MOCKSF001": {
+      "status": "in_transit",
+      "location": "上海转运中心",
+      "shipped_at": "2026-10-19T10:00:00+08:00",
+      "signed_at": null,
+      "events": [
+        {
+          "event_id": "event-001",
+          "occurred_at": "2026-10-20T08:00:00+08:00",
+          "status": "in_transit",
+          "location": "上海转运中心",
+          "description": "包裹抵达上海转运中心"
+        }
+      ],
+      "events_truncated": false
+    },
+    "MOCKSF002": {
+      "status": "delivered",
+      "location": null,
+      "shipped_at": "2026-10-19T10:00:00+08:00",
+      "signed_at": null,
+      "events": [],
+      "events_truncated": false
+    },
+    "MOCKSF003": {
+      "status": "in_transit",
+      "location": "杭州分拨中心",
+      "shipped_at": "2026-10-19T10:00:00+08:00",
+      "signed_at": null,
+      "events": [],
+      "events_truncated": false
+    },
+    "MOCKSF004": {
+      "status": "out_for_delivery",
+      "location": "上海配送站",
+      "shipped_at": "2026-10-19T10:00:00+08:00",
+      "signed_at": null,
+      "events": [
+        {
+          "event_id": "event-001",
+          "occurred_at": "2026-10-20T08:00:00+08:00",
+          "status": "out_for_delivery",
+          "location": "上海配送站",
+          "description": "派送中"
+        }
+      ],
+      "events_truncated": false
+    },
+    "MOCKSF005": {
+      "status": "exception",
+      "location": null,
+      "shipped_at": "2026-10-19T10:00:00+08:00",
+      "signed_at": null,
+      "events": [
+        {
+          "event_id": "event-001",
+          "occurred_at": "2026-10-20T08:00:00+08:00",
+          "status": "exception",
+          "location": null,
+          "description": "运输异常，原因未提供"
+        }
+      ],
+      "events_truncated": false
+    },
+    "MOCKSF006": {
+      "status": "unknown",
+      "location": null,
+      "shipped_at": "2026-10-19T10:00:00+08:00",
+      "signed_at": null,
+      "events": [],
+      "events_truncated": false
+    }
+  },
+  "dataset_hash": "54fa4b2f2a98f6130f3a669381aa18eddb4c024a24abc183b31a2de6bbe84909"
+}

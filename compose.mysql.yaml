@@ -1,0 +1,28 @@
+name: resolv-knowledge
+
+services:
+  mysql:
+    image: mysql:8.4@sha256:6ea90827b1100f8f2ae306a539f86d2c264a26ed435a2a9f75551dd5c3aeb242
+    environment:
+      MYSQL_DATABASE: ${MYSQL_DATABASE:-resolv_knowledge}
+      MYSQL_USER: ${MYSQL_USER:-resolv_knowledge}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD:?Set MYSQL_PASSWORD in the local .env}
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:?Set MYSQL_ROOT_PASSWORD in the local .env}
+    command:
+      - --character-set-server=utf8mb4
+      - --collation-server=utf8mb4_0900_ai_ci
+    ports:
+      - "127.0.0.1:3307:3306"
+    volumes:
+      - mysql-data:/var/lib/mysql
+    healthcheck:
+      test:
+        - CMD-SHELL
+        - MYSQL_PWD="$${MYSQL_PASSWORD}" mysql --protocol=TCP -h127.0.0.1 -u"$${MYSQL_USER}" --database="$${MYSQL_DATABASE}" --batch --skip-column-names -e 'SELECT 1'
+      interval: 5s
+      timeout: 5s
+      retries: 20
+      start_period: 30s
+
+volumes:
+  mysql-data:

@@ -1,0 +1,178 @@
+{
+  "release_id": "knowledge-20261015-v1",
+  "index_version": "knowledge_20261015_v1",
+  "collection": "resolv_knowledge_20261015_v1",
+  "policy_commit": "abf6c077a15c6055de39edf6a4d20e045a39fcea",
+  "policy_tree": "f7d75e53954fe6ee67b1fc659057c44da6732c1f",
+  "file_config_sha256": "079f549bc1fb5118836659d6640a408c7acec12109a72a6bca83e0cfe5aac5e5",
+  "index_profile": {
+    "collection_name": "resolv_knowledge_20261015_v1",
+    "model_name": "BAAI/bge-m3",
+    "model_revision": "5617a9f61b028005a4858fdac845db406aefb181",
+    "dimension": 1024,
+    "normalize_embeddings": true,
+    "device": "cpu",
+    "precision": "fp32",
+    "use_fp16": false,
+    "passage_max_length": 512,
+    "text_rule": "category-questions-answer-v1",
+    "schema_version": "knowledge-v3",
+    "dense_index_type": "FLAT",
+    "dense_metric": "COSINE",
+    "sparse_index_type": "SPARSE_INVERTED_INDEX",
+    "sparse_metric": "BM25",
+    "analyzer": "chinese",
+    "bm25_k1": 1.2,
+    "bm25_b": 0.75,
+    "section_rule": "document-ordinal-v1"
+  },
+  "documents": [
+    {
+      "original_path": "knowledge/product-faq.md",
+      "original_commit": "abf6c077a15c6055de39edf6a4d20e045a39fcea",
+      "source": "knowledge/releases/knowledge-20261015-v1/product-faq.md",
+      "document_id": "742fa3bd84be6e36ae8604c905a6dc755b3d329f55f6657c1a061717e090a4be",
+      "raw_sha256": "f9ebf44c9b8f393fd61ea220ef386bbfa62f1f8e7be7d9019328c313c91da73d",
+      "content_hash": "f9ebf44c9b8f393fd61ea220ef386bbfa62f1f8e7be7d9019328c313c91da73d",
+      "file_config": {
+        "content_type": "product_faq",
+        "key_clause_keywords": [
+          "退货",
+          "退款",
+          "换货",
+          "运费",
+          "发票",
+          "会员",
+          "积分",
+          "优惠券",
+          "支付",
+          "配送",
+          "价保",
+          "机洗"
+        ]
+      },
+      "max_chars": 800,
+      "overlap": 100,
+      "passage_max_length": 512
+    },
+    {
+      "original_path": "knowledge/product-specs.md",
+      "original_commit": "abf6c077a15c6055de39edf6a4d20e045a39fcea",
+      "source": "knowledge/releases/knowledge-20261015-v1/product-specs.md",
+      "document_id": "2eda38cd5c815af8fbac1382ba6f4a3f9e7b7f54c3875a016eb7c9f89b6f8f93",
+      "raw_sha256": "21c77a33b26d95264f7eb37509a521c2c37d3ebca0d3b9b85c1e83d353eced92",
+      "content_hash": "21c77a33b26d95264f7eb37509a521c2c37d3ebca0d3b9b85c1e83d353eced92",
+      "file_config": {
+        "content_type": "product_specification",
+        "key_clause_keywords": [
+          "型号",
+          "容量",
+          "供电",
+          "功能",
+          "尺寸",
+          "承重",
+          "温控",
+          "清洗",
+          "断电",
+          "清理"
+        ]
+      },
+      "max_chars": 800,
+      "overlap": 100,
+      "passage_max_length": 512
+    },
+    {
+      "original_path": "knowledge/returns-policy.md",
+      "original_commit": "abf6c077a15c6055de39edf6a4d20e045a39fcea",
+      "source": "knowledge/releases/knowledge-20261015-v1/returns-policy.md",
+      "document_id": "35c80bd606e4bf0f1db2044121156bae9e85c8d65f486148ac7b4b3ba5675102",
+      "raw_sha256": "fd9543748df085444df5ffddec2191500aa26ba7260038c02c177f954d11870f",
+      "content_hash": "fd9543748df085444df5ffddec2191500aa26ba7260038c02c177f954d11870f",
+      "file_config": {
+        "content_type": "return_refund_policy",
+        "key_clause_keywords": [
+          "退货",
+          "退款",
+          "换货",
+          "运费",
+          "质量",
+          "保修",
+          "破损",
+          "定金"
+        ]
+      },
+      "max_chars": 800,
+      "overlap": 100,
+      "passage_max_length": 512
+    },
+    {
+      "original_path": "knowledge/billing-shipping.md",
+      "original_commit": "abf6c077a15c6055de39edf6a4d20e045a39fcea",
+      "source": "knowledge/releases/knowledge-20261015-v1/billing-shipping.md",
+      "document_id": "e700086434d7883beb8019a58ddacd8bdd2b93aefb4020fb7c952b5d209c29ab",
+      "raw_sha256": "c140136b2f0c918b08470c593be0b9fd42e16dc955bd64792982ff38f64c0152",
+      "content_hash": "c140136b2f0c918b08470c593be0b9fd42e16dc955bd64792982ff38f64c0152",
+      "file_config": {
+        "content_type": "billing_shipping_policy",
+        "key_clause_keywords": [
+          "发票",
+          "开票",
+          "配送",
+          "运费",
+          "包邮",
+          "偏远"
+        ]
+      },
+      "max_chars": 800,
+      "overlap": 100,
+      "passage_max_length": 512
+    },
+    {
+      "original_path": "knowledge/member-benefits.md",
+      "original_commit": "abf6c077a15c6055de39edf6a4d20e045a39fcea",
+      "source": "knowledge/releases/knowledge-20261015-v1/member-benefits.md",
+      "document_id": "226d145fdc7fa74f94f336e8cabdf1afebeee887a79c94cbe6cf46aa0574dd49",
+      "raw_sha256": "8a6d27e9751b08fbb35c03e3295c3db189d36e9765b36d7f38eeb2344b55a6cc",
+      "content_hash": "8a6d27e9751b08fbb35c03e3295c3db189d36e9765b36d7f38eeb2344b55a6cc",
+      "file_config": {
+        "content_type": "membership_policy",
+        "key_clause_keywords": [
+          "会员",
+          "银卡",
+          "金卡",
+          "积分",
+          "运费",
+          "抵扣"
+        ]
+      },
+      "max_chars": 800,
+      "overlap": 100,
+      "passage_max_length": 512
+    },
+    {
+      "original_path": "knowledge/after-sales-manual.md",
+      "original_commit": "abf6c077a15c6055de39edf6a4d20e045a39fcea",
+      "source": "knowledge/releases/knowledge-20261015-v1/after-sales-manual.md",
+      "document_id": "ecf5f70cd3958581c40026d6625f6f4848c732d5aeca169d8ccac327551f9dcc",
+      "raw_sha256": "c30d2bb70d3808618ac982695fe9bae93b18118cb99cde1f0ef65993231b7610",
+      "content_hash": "62ece849d4308d5b5fa6df1c18ea056dace80a2a11ef3d0950055dca84758cd0",
+      "file_config": {
+        "content_type": "after_sales_manual",
+        "key_clause_keywords": [
+          "退款",
+          "换货",
+          "维修",
+          "投诉",
+          "保修",
+          "激活",
+          "人工",
+          "运费"
+        ]
+      },
+      "max_chars": 800,
+      "overlap": 100,
+      "passage_max_length": 512
+    }
+  ],
+  "manifest_rule": "git-knowledge-release-v1"
+}

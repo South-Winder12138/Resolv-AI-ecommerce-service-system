@@ -1,0 +1,64 @@
+# Private content and local state
+.env
+.env.*
+!.env.example
+.envrc
+/docs/
+/knowledge/
+/data/
+/.superpowers/
+/design-qa.md
+.logistics-source.json
+
+# Dependency environments, caches and generated output
+.venv/
+venv/
+node_modules/
+dist/
+build/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+htmlcov/
+*.egg-info/
+*.tsbuildinfo
+*.log
+
+# OS/editor metadata
+.DS_Store
+._*
+.idea/
+.vscode/
+
+# Databases, backups, model files and credentials
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.sqlite-*
+*.sqlite3-*
+*.sql
+*.dump
+*.bak
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.whl
+*.safetensors
+*.pt
+*.pth
+*.onnx
+*.pkl
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Private business policy copied into historical test fixtures
+/tests/fixtures/refund_flow/returns-policy.md

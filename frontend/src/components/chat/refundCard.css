@@ -1,0 +1,11 @@
+.refund-card { margin-block: 1rem; padding: 1rem; border: 1px solid var(--border, #648d9a); border-radius: .8rem; background: var(--surface, #f2fafb); color: var(--foreground, #173b46); max-width: 100%; overflow-wrap: anywhere; }
+.refund-card-heading, .refund-card-actions { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: .7rem; }
+.refund-card dl { display: grid; grid-template-columns: minmax(5em, auto) minmax(0, 1fr); gap: .45rem .8rem; margin-block: .8rem; }
+.refund-card dd { margin: 0; white-space: pre-wrap; }
+.refund-card dt { font-weight: 700; }
+.refund-card p { margin-block: .7rem; }
+.refund-card button, .refund-card-open { border: 1px solid currentColor; border-radius: .45rem; padding: .5rem .7rem; background: transparent; color: inherit; cursor: pointer; font: inherit; }
+.refund-card button:disabled { opacity: .5; cursor: default; }
+.refund-card button:focus-visible, .refund-card-open:focus-visible { outline: 3px solid #0e91bd; outline-offset: 3px; }
+.refund-card-error { color: #a12929; }
+@media (max-width: 420px) { .refund-card { padding: .75rem; } .refund-card-actions { align-items: stretch; flex-direction: column; } .refund-card-actions button { width: 100%; } }

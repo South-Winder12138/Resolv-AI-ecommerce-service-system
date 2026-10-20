@@ -1,0 +1,3613 @@
+[
+  {
+    "case_id": "intent-logistics-01",
+    "group": "intent",
+    "text": "订单 MH001 发货了吗",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "logistics",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 13
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [
+      "MH001"
+    ],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-logistics-02",
+    "group": "intent",
+    "text": "请查订单 MH002 的快递轨迹",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "logistics",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 16
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [
+      "MH002"
+    ],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-logistics-03",
+    "group": "intent",
+    "text": "包裹的配送状态怎样",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "logistics",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 9
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-logistics-04",
+    "group": "intent",
+    "text": "快递太慢了，帮我查一下",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "logistics",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 11
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-logistics-05",
+    "group": "intent",
+    "text": "订单 MH003 的物流到哪了",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "logistics",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 15
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [
+      "MH003"
+    ],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-logistics-06",
+    "group": "intent",
+    "text": "我的快递什么时候派送",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "logistics",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 10
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-logistics-07",
+    "group": "intent",
+    "text": "查订单 MH004 的运单状态",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "logistics",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 15
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [
+      "MH004"
+    ],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-logistics-08",
+    "group": "intent",
+    "text": "包裹是否已签收",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "logistics",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 7
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-logistics-09",
+    "group": "intent",
+    "text": "订单 MH005 为什么还没发货",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "logistics",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 16
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [
+      "MH005"
+    ],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-logistics-10",
+    "group": "intent",
+    "text": "快递现在到哪个站点",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "logistics",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 9
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-order-01",
+    "group": "intent",
+    "text": "查订单 MH001 状态",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "order",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 12
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [
+      "MH001"
+    ],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-order-02",
+    "group": "intent",
+    "text": "订单 MH002 的金额是多少",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "order",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 15
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [
+      "MH002"
+    ],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-order-03",
+    "group": "intent",
+    "text": "订单 MH003 是何时下单的",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "order",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 15
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [
+      "MH003"
+    ],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-order-04",
+    "group": "intent",
+    "text": "我要取消订单 MH004",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "order",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 12
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [
+      "MH004"
+    ],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-order-05",
+    "group": "intent",
+    "text": "您好，查订单 MH005",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "order",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 12
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [
+      "MH005"
+    ],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-order-06",
+    "group": "intent",
+    "text": "请列出我的订单",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "order",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 7
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-order-07",
+    "group": "intent",
+    "text": "订单 MH006 是否已付款",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "order",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 14
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [
+      "MH006"
+    ],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-order-08",
+    "group": "intent",
+    "text": "帮我确认订单 MH007 是否取消了",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "order",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 18
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [
+      "MH007"
+    ],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-order-09",
+    "group": "intent",
+    "text": "订单 MH008 都买了什么",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "order",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 14
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [
+      "MH008"
+    ],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-order-10",
+    "group": "intent",
+    "text": "订单 MH009 的总价是多少",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "order",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 15
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [
+      "MH009"
+    ],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-product_consultation-01",
+    "group": "intent",
+    "text": "退款政策是什么",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "product_consultation",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 7
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-product_consultation-02",
+    "group": "intent",
+    "text": "保修政策是什么",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "product_consultation",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 7
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-product_consultation-03",
+    "group": "intent",
+    "text": "这款猫粮有哪些规格",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "product_consultation",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 9
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-product_consultation-04",
+    "group": "intent",
+    "text": "商品的尺寸介绍一下",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "product_consultation",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 9
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-product_consultation-05",
+    "group": "intent",
+    "text": "有哪些退货通用要求",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "product_consultation",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 9
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-product_consultation-06",
+    "group": "intent",
+    "text": "商品材质是什么",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "product_consultation",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 7
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-product_consultation-07",
+    "group": "intent",
+    "text": "运费的一般规则是什么",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "product_consultation",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 10
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-product_consultation-08",
+    "group": "intent",
+    "text": "会员权益包括什么",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "product_consultation",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 8
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-product_consultation-09",
+    "group": "intent",
+    "text": "这款玩具有哪些颜色",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "product_consultation",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 9
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-product_consultation-10",
+    "group": "intent",
+    "text": "下单前介绍一下产品使用方法",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "product_consultation",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 13
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-refund_return-01",
+    "group": "intent",
+    "text": "订单 MH001 是否符合退款条件",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "refund_return",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 17
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [
+      "MH001"
+    ],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-refund_return-02",
+    "group": "intent",
+    "text": "我的退款到账了吗",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "refund_return",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 8
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-refund_return-03",
+    "group": "intent",
+    "text": "我要给订单 MH002 申请退款",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "refund_return",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 16
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [
+      "MH002"
+    ],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-refund_return-04",
+    "group": "intent",
+    "text": "查订单 MH003 的退货进度",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "refund_return",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 15
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [
+      "MH003"
+    ],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-refund_return-05",
+    "group": "intent",
+    "text": "订单 MH004 还能退吗",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "refund_return",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 13
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [
+      "MH004"
+    ],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-refund_return-06",
+    "group": "intent",
+    "text": "查订单是否符合退款条件，符合再申请",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "refund_return",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 17
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-refund_return-07",
+    "group": "intent",
+    "text": "订单 MH005 的退款为何没到账",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "refund_return",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 17
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [
+      "MH005"
+    ],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-refund_return-08",
+    "group": "intent",
+    "text": "帮我退掉订单 MH006",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "refund_return",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 12
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [
+      "MH006"
+    ],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-refund_return-09",
+    "group": "intent",
+    "text": "订单 MH007 的退货是否受理了",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "refund_return",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 17
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [
+      "MH007"
+    ],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-refund_return-10",
+    "group": "intent",
+    "text": "我想退还已买的这件商品",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "refund_return",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 11
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-after_sales-01",
+    "group": "intent",
+    "text": "已买的猫爬架坏了，帮我安排维修",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "after_sales",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 15
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-after_sales-02",
+    "group": "intent",
+    "text": "我买的饮水机不工作，请处理售后",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "after_sales",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 15
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-after_sales-03",
+    "group": "intent",
+    "text": "这件已购商品需要保修",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "after_sales",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 10
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-after_sales-04",
+    "group": "intent",
+    "text": "订单 MH001 的产品损坏，帮我换新",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "after_sales",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 19
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [
+      "MH001"
+    ],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-after_sales-05",
+    "group": "intent",
+    "text": "猫粮袋破损，请安排换货",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "after_sales",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 11
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-after_sales-06",
+    "group": "intent",
+    "text": "我买的玩具断了，想维修",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "after_sales",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 11
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-after_sales-07",
+    "group": "intent",
+    "text": "已购自动喂食器故障，申请保修",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "after_sales",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 14
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-after_sales-08",
+    "group": "intent",
+    "text": "给这件已买商品安排检修",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "after_sales",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 11
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-after_sales-09",
+    "group": "intent",
+    "text": "收到的猫窝有问题，请换一件",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "after_sales",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 13
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-after_sales-10",
+    "group": "intent",
+    "text": "产品还在保修期，我要申请维修",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "after_sales",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 14
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-complaint-01",
+    "group": "intent",
+    "text": "我要投诉配送员，给我处理结果",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "complaint",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 14
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-complaint-02",
+    "group": "intent",
+    "text": "我要投诉你们的服务",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "complaint",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 9
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-complaint-03",
+    "group": "intent",
+    "text": "请追责客服的不当行为",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "complaint",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 10
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-complaint-04",
+    "group": "intent",
+    "text": "我要正式投诉售后人员",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "complaint",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 10
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-complaint-05",
+    "group": "intent",
+    "text": "我要求处理这次服务不满并给我反馈",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "complaint",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 16
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-complaint-06",
+    "group": "intent",
+    "text": "请登记我的服务投诉",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "complaint",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 9
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-complaint-07",
+    "group": "intent",
+    "text": "你们虚假宣传，我要投诉",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "complaint",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 11
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-complaint-08",
+    "group": "intent",
+    "text": "我要追究配送员的责任",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "complaint",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 10
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-complaint-09",
+    "group": "intent",
+    "text": "这是正式投诉，请给我处理结果",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "complaint",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 14
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-complaint-10",
+    "group": "intent",
+    "text": "我要投诉客服态度恶劣",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "complaint",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 10
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-human-01",
+    "group": "intent",
+    "text": "转人工",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "human",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 3
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-human-02",
+    "group": "intent",
+    "text": "请安排客服专员跟进",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "human",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 9
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-human-03",
+    "group": "intent",
+    "text": "我要找真人客服",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "human",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 7
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-human-04",
+    "group": "intent",
+    "text": "帮我创建人工客服工单",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "human",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 10
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-human-05",
+    "group": "intent",
+    "text": "请让人工接手",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "human",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 6
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-human-06",
+    "group": "intent",
+    "text": "我要人工服务",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "human",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 6
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-human-07",
+    "group": "intent",
+    "text": "找个客服人员继续跟进",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "human",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 10
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-human-08",
+    "group": "intent",
+    "text": "请开工单给专员",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "human",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 7
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-human-09",
+    "group": "intent",
+    "text": "这件事需要真人客服介入",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "human",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 11
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-human-10",
+    "group": "intent",
+    "text": "安排人工客服与我沟通",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "human",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 10
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-chitchat-01",
+    "group": "intent",
+    "text": "你好呀",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "chitchat",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 3
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-chitchat-02",
+    "group": "intent",
+    "text": "给我讲个笑话",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "chitchat",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 6
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-chitchat-03",
+    "group": "intent",
+    "text": "今天心情不错，和我聊聊",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "chitchat",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 11
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-chitchat-04",
+    "group": "intent",
+    "text": "早上好",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "chitchat",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 3
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-chitchat-05",
+    "group": "intent",
+    "text": "谢谢你，祝你愉快",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "chitchat",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 8
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-chitchat-06",
+    "group": "intent",
+    "text": "你喜欢猫吗，随便聊聊",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "chitchat",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 10
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-chitchat-07",
+    "group": "intent",
+    "text": "陪我聊会天",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "chitchat",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 5
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-chitchat-08",
+    "group": "intent",
+    "text": "晚安呀",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "chitchat",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 3
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-chitchat-09",
+    "group": "intent",
+    "text": "哈哈，你真有趣",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "chitchat",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 7
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-chitchat-10",
+    "group": "intent",
+    "text": "给我的猫说声你好",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "chitchat",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 8
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-other-01",
+    "group": "intent",
+    "text": "帮我写一首关于月亮的诗",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "other",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 11
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-other-02",
+    "group": "intent",
+    "text": "帮我计算 17 加 28",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "other",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 12
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-other-03",
+    "group": "intent",
+    "text": "解释一下牛顿第三定律",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "other",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 10
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-other-04",
+    "group": "intent",
+    "text": "把 hello 翻译成中文",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "other",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 13
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-other-05",
+    "group": "intent",
+    "text": "帮我写一段生日祝福",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "other",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 9
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-other-06",
+    "group": "intent",
+    "text": "教我做一道番茄炒蛋",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "other",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 9
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-other-07",
+    "group": "intent",
+    "text": "我想学一个 Python 循环例子",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "other",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 17
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-other-08",
+    "group": "intent",
+    "text": "帮我设计一份健身计划",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "other",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 10
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-other-09",
+    "group": "intent",
+    "text": "讲讲古罗马历史",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "other",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 7
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "intent-other-10",
+    "group": "intent",
+    "text": "帮我构思小说的角色名字",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "other",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 11
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "reference-clear-01",
+    "group": "reference",
+    "text": "查它物流",
+    "history": [
+      {
+        "question": "订单 MH001",
+        "answer": "当前仅讨论上述一个对象。",
+        "actions": []
+      }
+    ],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "logistics",
+      "entities": [
+        "MH001"
+      ],
+      "span": {
+        "start": 0,
+        "end": 4
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [
+      "MH001"
+    ],
+    "allowed_entities": [
+      "MH001"
+    ],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "reference-clear-02",
+    "group": "reference",
+    "text": "它能退吗",
+    "history": [
+      {
+        "question": "订单 MH002",
+        "answer": "当前仅讨论上述一个对象。",
+        "actions": []
+      }
+    ],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "refund_return",
+      "entities": [
+        "MH002"
+      ],
+      "span": {
+        "start": 0,
+        "end": 4
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [
+      "MH002"
+    ],
+    "allowed_entities": [
+      "MH002"
+    ],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "reference-clear-03",
+    "group": "reference",
+    "text": "取消那一单",
+    "history": [
+      {
+        "question": "订单 MH003",
+        "answer": "当前仅讨论上述一个对象。",
+        "actions": []
+      }
+    ],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "order",
+      "entities": [
+        "MH003"
+      ],
+      "span": {
+        "start": 0,
+        "end": 5
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [
+      "MH003"
+    ],
+    "allowed_entities": [
+      "MH003"
+    ],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "reference-clear-04",
+    "group": "reference",
+    "text": "它的金额多少",
+    "history": [
+      {
+        "question": "订单 MH004",
+        "answer": "当前仅讨论上述一个对象。",
+        "actions": []
+      }
+    ],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "order",
+      "entities": [
+        "MH004"
+      ],
+      "span": {
+        "start": 0,
+        "end": 6
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [
+      "MH004"
+    ],
+    "allowed_entities": [
+      "MH004"
+    ],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "reference-clear-05",
+    "group": "reference",
+    "text": "查刚才那个订单状态",
+    "history": [
+      {
+        "question": "订单 MH005",
+        "answer": "当前仅讨论上述一个对象。",
+        "actions": []
+      }
+    ],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "order",
+      "entities": [
+        "MH005"
+      ],
+      "span": {
+        "start": 0,
+        "end": 9
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [
+      "MH005"
+    ],
+    "allowed_entities": [
+      "MH005"
+    ],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "reference-clear-06",
+    "group": "reference",
+    "text": "这个能退款吗",
+    "history": [
+      {
+        "question": "订单 MH006",
+        "answer": "当前仅讨论上述一个对象。",
+        "actions": []
+      }
+    ],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "refund_return",
+      "entities": [
+        "MH006"
+      ],
+      "span": {
+        "start": 0,
+        "end": 6
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [
+      "MH006"
+    ],
+    "allowed_entities": [
+      "MH006"
+    ],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "reference-clear-07",
+    "group": "reference",
+    "text": "查那笔的快递",
+    "history": [
+      {
+        "question": "订单 MH007",
+        "answer": "当前仅讨论上述一个对象。",
+        "actions": []
+      }
+    ],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "logistics",
+      "entities": [
+        "MH007"
+      ],
+      "span": {
+        "start": 0,
+        "end": 6
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [
+      "MH007"
+    ],
+    "allowed_entities": [
+      "MH007"
+    ],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "reference-clear-08",
+    "group": "reference",
+    "text": "退掉它",
+    "history": [
+      {
+        "question": "订单 MH008",
+        "answer": "当前仅讨论上述一个对象。",
+        "actions": []
+      }
+    ],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "refund_return",
+      "entities": [
+        "MH008"
+      ],
+      "span": {
+        "start": 0,
+        "end": 3
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [
+      "MH008"
+    ],
+    "allowed_entities": [
+      "MH008"
+    ],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "reference-clear-09",
+    "group": "reference",
+    "text": "它什么时候下单的",
+    "history": [
+      {
+        "question": "订单 MH009",
+        "answer": "当前仅讨论上述一个对象。",
+        "actions": []
+      }
+    ],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "order",
+      "entities": [
+        "MH009"
+      ],
+      "span": {
+        "start": 0,
+        "end": 8
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [
+      "MH009"
+    ],
+    "allowed_entities": [
+      "MH009"
+    ],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "reference-clear-10",
+    "group": "reference",
+    "text": "查这笔退款进度",
+    "history": [
+      {
+        "question": "退款 RF001 属于订单 MH010",
+        "answer": "当前仅讨论上述一个对象。",
+        "actions": []
+      }
+    ],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "refund_return",
+      "entities": [
+        "RF001"
+      ],
+      "span": {
+        "start": 0,
+        "end": 7
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [
+      "RF001"
+    ],
+    "allowed_entities": [
+      "RF001"
+    ],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "reference-clear-11",
+    "group": "reference",
+    "text": "它走到哪了",
+    "history": [
+      {
+        "question": "运单 TRK001",
+        "answer": "当前仅讨论上述一个对象。",
+        "actions": []
+      }
+    ],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "logistics",
+      "entities": [
+        "TRK001"
+      ],
+      "span": {
+        "start": 0,
+        "end": 5
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [
+      "TRK001"
+    ],
+    "allowed_entities": [
+      "TRK001"
+    ],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "reference-clear-12",
+    "group": "reference",
+    "text": "这个订单能退吗",
+    "history": [
+      {
+        "question": "订单 MH011",
+        "answer": "当前仅讨论上述一个对象。",
+        "actions": []
+      }
+    ],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "refund_return",
+      "entities": [
+        "MH011"
+      ],
+      "span": {
+        "start": 0,
+        "end": 7
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [
+      "MH011"
+    ],
+    "allowed_entities": [
+      "MH011"
+    ],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "reference-clear-13",
+    "group": "reference",
+    "text": "🙂查它物流",
+    "history": [
+      {
+        "question": "订单 MH012",
+        "answer": "当前仅讨论上述一个对象。",
+        "actions": []
+      }
+    ],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "logistics",
+      "entities": [
+        "MH012"
+      ],
+      "span": {
+        "start": 0,
+        "end": 5
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [
+      "MH012"
+    ],
+    "allowed_entities": [
+      "MH012"
+    ],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "reference-clear-14",
+    "group": "reference",
+    "text": "查它的状态",
+    "history": [
+      {
+        "question": "订单 MH013",
+        "answer": "当前仅讨论上述一个对象。",
+        "actions": []
+      }
+    ],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "order",
+      "entities": [
+        "MH013"
+      ],
+      "span": {
+        "start": 0,
+        "end": 5
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [
+      "MH013"
+    ],
+    "allowed_entities": [
+      "MH013"
+    ],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "reference-clear-15",
+    "group": "reference",
+    "text": "换成订单 MH015，查它物流",
+    "history": [
+      {
+        "question": "订单 MH014",
+        "answer": "当前仅讨论上述一个对象。",
+        "actions": []
+      }
+    ],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "logistics",
+      "entities": [
+        "MH015"
+      ],
+      "span": {
+        "start": 0,
+        "end": 15
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [
+      "MH015"
+    ],
+    "allowed_entities": [
+      "MH015"
+    ],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "reference-clear-16",
+    "group": "reference",
+    "text": "不是订单 MH016，是订单 MH017，查它物流",
+    "history": [
+      {
+        "question": "订单 MH016",
+        "answer": "当前仅讨论上述一个对象。",
+        "actions": []
+      }
+    ],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "logistics",
+      "entities": [
+        "MH017"
+      ],
+      "span": {
+        "start": 0,
+        "end": 25
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [
+      "MH017"
+    ],
+    "allowed_entities": [
+      "MH017"
+    ],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "reference-clear-17",
+    "group": "reference",
+    "text": "它能退吗",
+    "history": [
+      {
+        "question": "订单 MH018",
+        "answer": "当前仅讨论上述一个对象。",
+        "actions": []
+      }
+    ],
+    "pending": [],
+    "summary": {
+      "user_goal": "询问订单退款",
+      "confirmed_facts": [
+        "用户讨论订单 MH018"
+      ],
+      "completed_actions": [],
+      "open_questions": []
+    },
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "refund_return",
+      "entities": [
+        "MH018"
+      ],
+      "span": {
+        "start": 0,
+        "end": 4
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [
+      "MH018"
+    ],
+    "allowed_entities": [
+      "MH018"
+    ],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "reference-clear-18",
+    "group": "reference",
+    "text": "查它物流",
+    "history": [
+      {
+        "question": "查询我上次提供的订单",
+        "answer": "当时的查询结果已保存。",
+        "actions": [
+          {
+            "order_id": "MH019",
+            "status": "delivered"
+          }
+        ]
+      }
+    ],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "logistics",
+      "entities": [
+        "MH019"
+      ],
+      "span": {
+        "start": 0,
+        "end": 4
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [
+      "MH019"
+    ],
+    "allowed_entities": [
+      "MH019"
+    ],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "reference-clear-19",
+    "group": "reference",
+    "text": "查该订单金额",
+    "history": [
+      {
+        "question": "订单 MH020",
+        "answer": "当前仅讨论上述一个对象。",
+        "actions": []
+      }
+    ],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "order",
+      "entities": [
+        "MH020"
+      ],
+      "span": {
+        "start": 0,
+        "end": 6
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [
+      "MH020"
+    ],
+    "allowed_entities": [
+      "MH020"
+    ],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "reference-clear-20",
+    "group": "reference",
+    "text": "给那件商品安排维修",
+    "history": [
+      {
+        "question": "商品 PROD001 已购买",
+        "answer": "当前仅讨论上述一个对象。",
+        "actions": []
+      }
+    ],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "after_sales",
+      "entities": [
+        "PROD001"
+      ],
+      "span": {
+        "start": 0,
+        "end": 9
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [
+      "PROD001"
+    ],
+    "allowed_entities": [
+      "PROD001"
+    ],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "reference-ambiguous-01",
+    "group": "reference",
+    "text": "它能退吗",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "refund_return",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 4
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": true
+  },
+  {
+    "case_id": "reference-ambiguous-02",
+    "group": "reference",
+    "text": "查它物流",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "logistics",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 4
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": true
+  },
+  {
+    "case_id": "reference-ambiguous-03",
+    "group": "reference",
+    "text": "取消那一单",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "order",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 5
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": true
+  },
+  {
+    "case_id": "reference-ambiguous-04",
+    "group": "reference",
+    "text": "它的金额多少",
+    "history": [
+      {
+        "question": "订单 MH021 和 MH022",
+        "answer": "两笔订单都曾被讨论。",
+        "actions": []
+      }
+    ],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "order",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 6
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": true
+  },
+  {
+    "case_id": "reference-ambiguous-05",
+    "group": "reference",
+    "text": "查刚才那个状态",
+    "history": [
+      {
+        "question": "订单 MH021 和 MH022",
+        "answer": "两笔订单都曾被讨论。",
+        "actions": []
+      }
+    ],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "order",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 7
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": true
+  },
+  {
+    "case_id": "reference-ambiguous-06",
+    "group": "reference",
+    "text": "它能退吗",
+    "history": [
+      {
+        "question": "订单 MH021 和 MH022",
+        "answer": "两笔订单都曾被讨论。",
+        "actions": []
+      }
+    ],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "refund_return",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 4
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": true
+  },
+  {
+    "case_id": "reference-ambiguous-07",
+    "group": "reference",
+    "text": "查它物流",
+    "history": [
+      {
+        "question": "订单 MH021 和 MH022",
+        "answer": "两笔订单都曾被讨论。",
+        "actions": []
+      }
+    ],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "logistics",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 4
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": true
+  },
+  {
+    "case_id": "reference-ambiguous-08",
+    "group": "reference",
+    "text": "取消那一单",
+    "history": [
+      {
+        "question": "订单 MH021 和 MH022",
+        "answer": "两笔订单都曾被讨论。",
+        "actions": []
+      }
+    ],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "order",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 5
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": true
+  },
+  {
+    "case_id": "reference-ambiguous-09",
+    "group": "reference",
+    "text": "它的金额多少",
+    "history": [
+      {
+        "question": "没有提供订单标识",
+        "answer": "请补充",
+        "actions": []
+      }
+    ],
+    "pending": [],
+    "summary": {
+      "user_goal": "讨论退款",
+      "confirmed_facts": [
+        "订单 MH099"
+      ],
+      "completed_actions": [],
+      "open_questions": []
+    },
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "order",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 6
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": true
+  },
+  {
+    "case_id": "reference-ambiguous-10",
+    "group": "reference",
+    "text": "查刚才那个状态",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [
+      {
+        "question": "订单 MH999",
+        "answer": "跨会话对象",
+        "actions": []
+      }
+    ],
+    "gold_primary": {
+      "intent": "order",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 7
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": true
+  },
+  {
+    "case_id": "multi-01",
+    "group": "multi",
+    "text": "先查订单，再查物流",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "order",
+      "entities": [],
+      "span": {
+        "start": 1,
+        "end": 4
+      },
+      "task_key": null
+    },
+    "gold_secondary": [
+      {
+        "intent": "logistics",
+        "entities": [],
+        "span": {
+          "start": 6,
+          "end": 9
+        },
+        "task_key": null
+      }
+    ],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "multi-02",
+    "group": "multi",
+    "text": "我要退款，也要查物流",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "refund_return",
+      "entities": [],
+      "span": {
+        "start": 2,
+        "end": 4
+      },
+      "task_key": null
+    },
+    "gold_secondary": [
+      {
+        "intent": "logistics",
+        "entities": [],
+        "span": {
+          "start": 7,
+          "end": 10
+        },
+        "task_key": null
+      }
+    ],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "multi-03",
+    "group": "multi",
+    "text": "我要投诉，并转人工",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "complaint",
+      "entities": [],
+      "span": {
+        "start": 2,
+        "end": 4
+      },
+      "task_key": null
+    },
+    "gold_secondary": [
+      {
+        "intent": "human",
+        "entities": [],
+        "span": {
+          "start": 6,
+          "end": 9
+        },
+        "task_key": null
+      }
+    ],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "multi-04",
+    "group": "multi",
+    "text": "先转人工，再投诉",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "human",
+      "entities": [],
+      "span": {
+        "start": 1,
+        "end": 4
+      },
+      "task_key": null
+    },
+    "gold_secondary": [
+      {
+        "intent": "complaint",
+        "entities": [],
+        "span": {
+          "start": 6,
+          "end": 8
+        },
+        "task_key": null
+      }
+    ],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "multi-05",
+    "group": "multi",
+    "text": "查物流，另外介绍保修政策",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "logistics",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 3
+      },
+      "task_key": null
+    },
+    "gold_secondary": [
+      {
+        "intent": "product_consultation",
+        "entities": [],
+        "span": {
+          "start": 8,
+          "end": 12
+        },
+        "task_key": null
+      }
+    ],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "multi-06",
+    "group": "multi",
+    "text": "介绍商品材质，再查订单",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "product_consultation",
+      "entities": [],
+      "span": {
+        "start": 2,
+        "end": 6
+      },
+      "task_key": null
+    },
+    "gold_secondary": [
+      {
+        "intent": "order",
+        "entities": [],
+        "span": {
+          "start": 8,
+          "end": 11
+        },
+        "task_key": null
+      }
+    ],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "multi-07",
+    "group": "multi",
+    "text": "先安排维修，再查物流",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "after_sales",
+      "entities": [],
+      "span": {
+        "start": 1,
+        "end": 5
+      },
+      "task_key": null
+    },
+    "gold_secondary": [
+      {
+        "intent": "logistics",
+        "entities": [],
+        "span": {
+          "start": 7,
+          "end": 10
+        },
+        "task_key": null
+      }
+    ],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "multi-08",
+    "group": "multi",
+    "text": "订单 MH001 申请退款，同时查订单 MH002 金额",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "refund_return",
+      "entities": [],
+      "span": {
+        "start": 9,
+        "end": 13
+      },
+      "task_key": null
+    },
+    "gold_secondary": [
+      {
+        "intent": "order",
+        "entities": [],
+        "span": {
+          "start": 26,
+          "end": 28
+        },
+        "task_key": null
+      }
+    ],
+    "expected_entities": [],
+    "allowed_entities": [
+      "MH001",
+      "MH002"
+    ],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "multi-09",
+    "group": "multi",
+    "text": "先查物流，再申请退款，最后转人工",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "logistics",
+      "entities": [],
+      "span": {
+        "start": 1,
+        "end": 4
+      },
+      "task_key": null
+    },
+    "gold_secondary": [
+      {
+        "intent": "refund_return",
+        "entities": [],
+        "span": {
+          "start": 6,
+          "end": 10
+        },
+        "task_key": null
+      },
+      {
+        "intent": "human",
+        "entities": [],
+        "span": {
+          "start": 13,
+          "end": 16
+        },
+        "task_key": null
+      }
+    ],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "multi-10",
+    "group": "multi",
+    "text": "讲个笑话，另外介绍猫粮规格",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "chitchat",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 4
+      },
+      "task_key": null
+    },
+    "gold_secondary": [
+      {
+        "intent": "product_consultation",
+        "entities": [],
+        "span": {
+          "start": 9,
+          "end": 13
+        },
+        "task_key": null
+      }
+    ],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "multi-11",
+    "group": "multi",
+    "text": "给我写首诗，再查订单",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "other",
+      "entities": [],
+      "span": {
+        "start": 2,
+        "end": 5
+      },
+      "task_key": null
+    },
+    "gold_secondary": [
+      {
+        "intent": "order",
+        "entities": [],
+        "span": {
+          "start": 7,
+          "end": 10
+        },
+        "task_key": null
+      }
+    ],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "multi-12",
+    "group": "multi",
+    "text": "退款先等等，先查物流",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "logistics",
+      "entities": [],
+      "span": {
+        "start": 7,
+        "end": 10
+      },
+      "task_key": null
+    },
+    "gold_secondary": [
+      {
+        "intent": "refund_return",
+        "entities": [],
+        "span": {
+          "start": 0,
+          "end": 2
+        },
+        "task_key": null
+      }
+    ],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "multi-13",
+    "group": "multi",
+    "text": "您好，请查订单",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "order",
+      "entities": [],
+      "span": {
+        "start": 4,
+        "end": 7
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "multi-14",
+    "group": "multi",
+    "text": "查订单是否符合退款条件，符合再申请",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "refund_return",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 17
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "multi-15",
+    "group": "multi",
+    "text": "快递太慢了，帮我查一下",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "logistics",
+      "entities": [],
+      "span": {
+        "start": 8,
+        "end": 11
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "multi-16",
+    "group": "multi",
+    "text": "只处理查订单，退款先不管",
+    "history": [],
+    "pending": [],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "order",
+      "entities": [],
+      "span": {
+        "start": 3,
+        "end": 6
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "multi-17",
+    "group": "multi",
+    "text": "先查物流，再继续退款",
+    "history": [],
+    "pending": [
+      {
+        "key": "old-refund-1",
+        "text": "退款",
+        "intent": "refund_return",
+        "entities": []
+      }
+    ],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "logistics",
+      "entities": [],
+      "span": {
+        "start": 1,
+        "end": 4
+      },
+      "task_key": null
+    },
+    "gold_secondary": [
+      {
+        "intent": "refund_return",
+        "entities": [],
+        "span": {
+          "start": 6,
+          "end": 10
+        },
+        "task_key": "old-refund-1"
+      }
+    ],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "multi-18",
+    "group": "multi",
+    "text": "继续退款",
+    "history": [],
+    "pending": [
+      {
+        "key": "old-refund-1",
+        "text": "退款",
+        "intent": "refund_return",
+        "entities": []
+      }
+    ],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "refund_return",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 4
+      },
+      "task_key": "old-refund-1"
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "multi-19",
+    "group": "multi",
+    "text": "先继续退款，再查物流",
+    "history": [],
+    "pending": [
+      {
+        "key": "old-refund-1",
+        "text": "退款",
+        "intent": "refund_return",
+        "entities": []
+      }
+    ],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "refund_return",
+      "entities": [],
+      "span": {
+        "start": 1,
+        "end": 5
+      },
+      "task_key": "old-refund-1"
+    },
+    "gold_secondary": [
+      {
+        "intent": "logistics",
+        "entities": [],
+        "span": {
+          "start": 7,
+          "end": 10
+        },
+        "task_key": null
+      }
+    ],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": false
+  },
+  {
+    "case_id": "multi-20",
+    "group": "multi",
+    "text": "继续退款",
+    "history": [],
+    "pending": [
+      {
+        "key": "old-refund-1",
+        "text": "退款",
+        "intent": "refund_return",
+        "entities": []
+      },
+      {
+        "key": "old-refund-2",
+        "text": "退款",
+        "intent": "refund_return",
+        "entities": []
+      }
+    ],
+    "summary": null,
+    "foreign_history": [],
+    "gold_primary": {
+      "intent": "refund_return",
+      "entities": [],
+      "span": {
+        "start": 0,
+        "end": 4
+      },
+      "task_key": null
+    },
+    "gold_secondary": [],
+    "expected_entities": [],
+    "allowed_entities": [],
+    "needs_clarification": true
+  }
+]

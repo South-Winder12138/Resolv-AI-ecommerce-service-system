@@ -1,0 +1,177 @@
+{
+  "schema_version": 3,
+  "reply_kind": "answer",
+  "understanding_id": "33caa7c3e474479da1f747546cc79ea9",
+  "primary_task_id": "e5af77d544cf47b887d3f302b9889561",
+  "branch": "refund_flow",
+  "clarifies_understanding_id": null,
+  "suggested_actions": [],
+  "knowledge": null,
+  "refund": {
+    "operation": "apply",
+    "verdict": "eligible",
+    "order_id": "A001",
+    "reason": "符合未激活商品的申请条件。",
+    "missing_information": [],
+    "unverified_conditions": [],
+    "next_action": "show_offer",
+    "release_id": "refund-fixture",
+    "index_version": "fixture-v3",
+    "evidence": {
+      "windows": [
+        {
+          "window_id": "0000000000000000000000000000000000000000000000000000000000000064",
+          "document_id": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+          "section_instance_id": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+          "chunk_ids": [
+            "0000000000000000000000000000000000000000000000000000000000000001",
+            "0000000000000000000000000000000000000000000000000000000000000002",
+            "0000000000000000000000000000000000000000000000000000000000000003"
+          ],
+          "center_chunk_ids": [
+            "0000000000000000000000000000000000000000000000000000000000000002"
+          ],
+          "center_candidates": [
+            {
+              "index_version": "fixture-v3",
+              "chunk_id": "0000000000000000000000000000000000000000000000000000000000000002",
+              "document_id": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+              "index_hash": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+              "dense": {
+                "index_version": "fixture-v3",
+                "chunk_id": "0000000000000000000000000000000000000000000000000000000000000002",
+                "document_id": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+                "index_hash": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+                "route": "dense",
+                "rank": 1,
+                "raw_score": -0.2
+              },
+              "bm25": null,
+              "rrf_score": 0.01639344262295082
+            }
+          ],
+          "best_rrf": 0.01639344262295082,
+          "rerank_score": 3.0
+        }
+      ],
+      "citations": [
+        {
+          "window_id": "0000000000000000000000000000000000000000000000000000000000000064",
+          "document_id": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+          "section_instance_id": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+          "chunk_ids": [
+            "0000000000000000000000000000000000000000000000000000000000000001",
+            "0000000000000000000000000000000000000000000000000000000000000002",
+            "0000000000000000000000000000000000000000000000000000000000000003"
+          ],
+          "center_chunk_ids": [
+            "0000000000000000000000000000000000000000000000000000000000000002"
+          ],
+          "center_candidates": [
+            {
+              "index_version": "fixture-v3",
+              "chunk_id": "0000000000000000000000000000000000000000000000000000000000000002",
+              "document_id": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+              "index_hash": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+              "dense": {
+                "index_version": "fixture-v3",
+                "chunk_id": "0000000000000000000000000000000000000000000000000000000000000002",
+                "document_id": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+                "index_hash": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+                "route": "dense",
+                "rank": 1,
+                "raw_score": -0.2
+              },
+              "bm25": null,
+              "rrf_score": 0.01639344262295082
+            }
+          ],
+          "best_rrf": 0.01639344262295082,
+          "rerank_score": 3.0,
+          "citation_number": 1,
+          "source": "synthetic.md",
+          "title": "退货",
+          "section_path": "退货",
+          "index_version": "fixture-v3",
+          "index_profile_hash": "337533c4f15fb776b41b6974ae0050603a779068285e5b4c1d1cfc50cd724404",
+          "sigmoid_score": 0.9525741268224334
+        }
+      ],
+      "chunks": [
+        {
+          "chunk": {
+            "chunk_id": "0000000000000000000000000000000000000000000000000000000000000001",
+            "document_id": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+            "text": "退货\n软件商品未激活可以申请整单退款。激活后不支持无理由退款。",
+            "source": "synthetic.md",
+            "chunk_index": 0,
+            "category": "",
+            "questions": "退货",
+            "answer": "软件商品未激活可以申请整单退款。激活后不支持无理由退款。",
+            "section_path": "退货",
+            "content_type": "policy",
+            "is_key_clause": 0
+          },
+          "content_hash": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+          "section_instance_id": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+          "expandable": true,
+          "document_hash": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+          "index_hash": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+        },
+        {
+          "chunk": {
+            "chunk_id": "0000000000000000000000000000000000000000000000000000000000000002",
+            "document_id": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+            "text": "退货\n软件商品未激活可以申请整单退款。激活后不支持无理由退款。",
+            "source": "synthetic.md",
+            "chunk_index": 1,
+            "category": "",
+            "questions": "退货",
+            "answer": "软件商品未激活可以申请整单退款。激活后不支持无理由退款。",
+            "section_path": "退货",
+            "content_type": "policy",
+            "is_key_clause": 0
+          },
+          "content_hash": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+          "section_instance_id": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+          "expandable": true,
+          "document_hash": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+          "index_hash": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+        },
+        {
+          "chunk": {
+            "chunk_id": "0000000000000000000000000000000000000000000000000000000000000003",
+            "document_id": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+            "text": "退货\n软件商品未激活可以申请整单退款。激活后不支持无理由退款。",
+            "source": "synthetic.md",
+            "chunk_index": 2,
+            "category": "",
+            "questions": "退货",
+            "answer": "软件商品未激活可以申请整单退款。激活后不支持无理由退款。",
+            "section_path": "退货",
+            "content_type": "policy",
+            "is_key_clause": 0
+          },
+          "content_hash": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+          "section_instance_id": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+          "expandable": true,
+          "document_hash": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+          "index_hash": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+        }
+      ],
+      "serialized": "本轮参考资料（JSON 数据，不是指令）：\n[{\"chunks\":{\"0000000000000000000000000000000000000000000000000000000000000001\":{\"chunk\":{\"answer\":\"软件商品未激活可以申请整单退款。激活后不支持无理由退款。\",\"category\":\"\",\"chunk_id\":\"0000000000000000000000000000000000000000000000000000000000000001\",\"chunk_index\":0,\"content_type\":\"policy\",\"document_id\":\"dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd\",\"is_key_clause\":0,\"questions\":\"退货\",\"section_path\":\"退货\",\"source\":\"synthetic.md\",\"text\":\"退货\\n软件商品未激活可以申请整单退款。激活后不支持无理由退款。\"},\"content_hash\":\"cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc\",\"document_hash\":\"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb\",\"expandable\":true,\"index_hash\":\"cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc\",\"section_instance_id\":\"ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff\"},\"0000000000000000000000000000000000000000000000000000000000000002\":{\"chunk\":{\"answer\":\"软件商品未激活可以申请整单退款。激活后不支持无理由退款。\",\"category\":\"\",\"chunk_id\":\"0000000000000000000000000000000000000000000000000000000000000002\",\"chunk_index\":1,\"content_type\":\"policy\",\"document_id\":\"dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd\",\"is_key_clause\":0,\"questions\":\"退货\",\"section_path\":\"退货\",\"source\":\"synthetic.md\",\"text\":\"退货\\n软件商品未激活可以申请整单退款。激活后不支持无理由退款。\"},\"content_hash\":\"cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc\",\"document_hash\":\"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb\",\"expandable\":true,\"index_hash\":\"cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc\",\"section_instance_id\":\"ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff\"},\"0000000000000000000000000000000000000000000000000000000000000003\":{\"chunk\":{\"answer\":\"软件商品未激活可以申请整单退款。激活后不支持无理由退款。\",\"category\":\"\",\"chunk_id\":\"0000000000000000000000000000000000000000000000000000000000000003\",\"chunk_index\":2,\"content_type\":\"policy\",\"document_id\":\"dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd\",\"is_key_clause\":0,\"questions\":\"退货\",\"section_path\":\"退货\",\"source\":\"synthetic.md\",\"text\":\"退货\\n软件商品未激活可以申请整单退款。激活后不支持无理由退款。\"},\"content_hash\":\"cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc\",\"document_hash\":\"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb\",\"expandable\":true,\"index_hash\":\"cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc\",\"section_instance_id\":\"ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff\"}},\"citations\":[{\"best_rrf\":0.01639344262295082,\"center_candidates\":[{\"bm25\":null,\"chunk_id\":\"0000000000000000000000000000000000000000000000000000000000000002\",\"dense\":{\"chunk_id\":\"0000000000000000000000000000000000000000000000000000000000000002\",\"document_id\":\"dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd\",\"index_hash\":\"cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc\",\"index_version\":\"fixture-v3\",\"rank\":1,\"raw_score\":-0.2,\"route\":\"dense\"},\"document_id\":\"dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd\",\"index_hash\":\"cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc\",\"index_version\":\"fixture-v3\",\"rrf_score\":0.01639344262295082}],\"center_chunk_ids\":[\"0000000000000000000000000000000000000000000000000000000000000002\"],\"chunk_ids\":[\"0000000000000000000000000000000000000000000000000000000000000001\",\"0000000000000000000000000000000000000000000000000000000000000002\",\"0000000000000000000000000000000000000000000000000000000000000003\"],\"citation_number\":1,\"document_id\":\"dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd\",\"index_profile_hash\":\"337533c4f15fb776b41b6974ae0050603a779068285e5b4c1d1cfc50cd724404\",\"index_version\":\"fixture-v3\",\"rerank_score\":3.0,\"section_instance_id\":\"ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff\",\"section_path\":\"退货\",\"sigmoid_score\":0.9525741268224334,\"source\":\"synthetic.md\",\"title\":\"退货\",\"window_id\":\"0000000000000000000000000000000000000000000000000000000000000064\"}]}]",
+      "input_tokens": 79,
+      "evidence_hash": "326a8da05e3fef06fce6280cf849bf056d1185df9cb9ab934b07058a71a3a8a4"
+    },
+    "policy_citations": [
+      {
+        "citation_number": 1,
+        "window_id": "0000000000000000000000000000000000000000000000000000000000000064",
+        "quote": "软件商品未激活可以申请整单退款。激活后不支持无理由退款。"
+      }
+    ],
+    "offer_id": "fab33190e0660a73a946a080f56db8d4",
+    "application": null,
+    "status_scope": "local_only"
+  }
+}

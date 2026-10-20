@@ -1,0 +1,47 @@
+[project]
+name = "resolv"
+version = "0.1.0"
+description = "Resolv intelligent customer support agent learning project"
+readme = "README.md"
+authors = [
+    { name = "South-Winder12138" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "alembic>=1.13,<2",
+    "anyio==4.15.1",
+    "fastapi>=0.141.1",
+    "flagembedding==1.4.2",
+    "httpx2==2.13.1",
+    "langchain>=1.4.2",
+    "langchain-openai>=1.6.5",
+    "langgraph==1.2.12",
+    "langgraph-checkpoint==4.2.0",
+    "langgraph-checkpoint-mysql[pymysql]==3.0.0",
+    "mcp==2.3.0",
+    "numpy>=1.26,<3",
+    "pydantic-settings>=2.15.0",
+    "pymilvus==3.0.2",
+    "pymysql[rsa]>=1.1,<2",
+    "python-dotenv>=1.2.3",
+    "sqlalchemy>=2.0,<2.1",
+    "tiktoken==0.14.0",
+    "torch>=2.6,<3",
+    "transformers>=4.44.2,<6",
+    "uvicorn[standard]>=0.53.0",
+]
+
+[build-system]
+requires = ["uv_build>=0.11.6,<0.12.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+    "pytest-asyncio>=1.4.0",
+    "ruff>=0.16.8",
+]
+
+[tool.ruff]
+target-version = "py312"
+src = ["src"]
