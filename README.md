@@ -1,4 +1,4 @@
-# Resolv AI 电商客服系统
+# ResolveAI · 电商 Agent 工作流平台
 
 Resolv AI 是一个电商客服 Agent 学习与原型项目，包含 Python 后端、React 前端、会话持久化、工具审批和知识检索模块。
 
